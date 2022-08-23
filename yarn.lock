@@ -1237,26 +1237,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nrwl/cli@npm:14.5.4":
-  version: 14.5.4
-  resolution: "@nrwl/cli@npm:14.5.4"
+"@nrwl/cli@npm:14.5.8":
+  version: 14.5.8
+  resolution: "@nrwl/cli@npm:14.5.8"
   dependencies:
-    nx: 14.5.4
-  checksum: 13ec59473c0b40e1c314c7103b2790b0d9d12187fbe1c0e22e8a882273a620bf9ab8c95da4de0b8a98e10bb090628f0250b77ec91270c0cd59b7e999a14ed0b9
-  languageName: node
-  linkType: hard
-
-"@nrwl/devkit@npm:14.5.4":
-  version: 14.5.4
-  resolution: "@nrwl/devkit@npm:14.5.4"
-  dependencies:
-    ejs: ^3.1.7
-    ignore: ^5.0.4
-    semver: 7.3.4
-    tslib: ^2.3.0
-  peerDependencies:
-    nx: ">= 13.10 <= 15"
-  checksum: 0708c16187ac67716e93e3ed369da8676527e8ce6b198e9f74e0b985fa3599776251d6b94b6ae493a2693b9acfa172dec60341eb3b77f28c12862c3d8f24ede3
+    nx: 14.5.8
+  checksum: 4fd72c4da62f96a3b57764bf0ffba2501ccf772c3c573c598d9f4722f25f97c13bf092b07d247c17a6dd9585076a132b972f530a8e7c8703bbaa1003c75d95ca
   languageName: node
   linkType: hard
 
@@ -1275,12 +1261,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nrwl/eslint-plugin-nx@npm:14.5.4":
-  version: 14.5.4
-  resolution: "@nrwl/eslint-plugin-nx@npm:14.5.4"
+"@nrwl/devkit@npm:14.5.8":
+  version: 14.5.8
+  resolution: "@nrwl/devkit@npm:14.5.8"
   dependencies:
-    "@nrwl/devkit": 14.5.4
-    "@nrwl/workspace": 14.5.4
+    "@phenomnomnominal/tsquery": 4.1.1
+    ejs: ^3.1.7
+    ignore: ^5.0.4
+    semver: 7.3.4
+    tslib: ^2.3.0
+  peerDependencies:
+    nx: ">= 13.10 <= 15"
+  checksum: c497db4189f36c2ee28368bb25b6f753e67ded16de3669c51617580771f69964e045c1b661232f5780541fb9510bac4d5a653350437adfaf2e2c8477f4743640
+  languageName: node
+  linkType: hard
+
+"@nrwl/eslint-plugin-nx@npm:14.5.8":
+  version: 14.5.8
+  resolution: "@nrwl/eslint-plugin-nx@npm:14.5.8"
+  dependencies:
+    "@nrwl/devkit": 14.5.8
+    "@nrwl/workspace": 14.5.8
     "@typescript-eslint/utils": ^5.29.0
     chalk: 4.1.0
     confusing-browser-globals: ^1.0.9
@@ -1291,17 +1292,17 @@ __metadata:
   peerDependenciesMeta:
     eslint-config-prettier:
       optional: true
-  checksum: bead15021b174b9303a1a2bcfd1a9fba4302feab121d5a991891495215e405eb3f08e9f5f7169b395534e61037267f2841fa1c88f7e1ad98d108e60d390e8ec7
+  checksum: c26402b72756eab181c06ae1a4e472a2f5f5d2f7c40d24370e0591a53cdf44714d977cdc629cd5f68ca792b29a78de39516dbd41418e1ae7fe7b46fd21c24b17
   languageName: node
   linkType: hard
 
-"@nrwl/jest@npm:14.5.4":
-  version: 14.5.4
-  resolution: "@nrwl/jest@npm:14.5.4"
+"@nrwl/jest@npm:14.5.8":
+  version: 14.5.8
+  resolution: "@nrwl/jest@npm:14.5.8"
   dependencies:
     "@jest/reporters": 27.5.1
     "@jest/test-result": 27.5.1
-    "@nrwl/devkit": 14.5.4
+    "@nrwl/devkit": 14.5.8
     "@phenomnomnominal/tsquery": 4.1.1
     chalk: 4.1.0
     dotenv: ~10.0.0
@@ -1312,18 +1313,18 @@ __metadata:
     resolve.exports: 1.1.0
     rxjs: ^6.5.4
     tslib: ^2.3.0
-  checksum: 77aaf1c22f7b7f35647196a0e951b6493fb6c83ae10e59f7696a593849236e3b01781518b45eabc50bd993902a5446fd2485690202878cfb840b84fea0a9678e
+  checksum: 0fb66951130cd60b0f870a11c40298f6e7c8f0f805a23ea4a16363f5fffc72fec8ffd26d2bcdc03082bfafe9e940ca331fece03cc9ab4f5c9c404f6defaf6bf7
   languageName: node
   linkType: hard
 
-"@nrwl/js@npm:14.5.4":
-  version: 14.5.4
-  resolution: "@nrwl/js@npm:14.5.4"
+"@nrwl/js@npm:14.5.8":
+  version: 14.5.8
+  resolution: "@nrwl/js@npm:14.5.8"
   dependencies:
-    "@nrwl/devkit": 14.5.4
-    "@nrwl/jest": 14.5.4
-    "@nrwl/linter": 14.5.4
-    "@nrwl/workspace": 14.5.4
+    "@nrwl/devkit": 14.5.8
+    "@nrwl/jest": 14.5.8
+    "@nrwl/linter": 14.5.8
+    "@nrwl/workspace": 14.5.8
     "@parcel/watcher": 2.0.4
     chalk: 4.1.0
     fast-glob: 3.2.7
@@ -1333,18 +1334,18 @@ __metadata:
     minimatch: 3.0.5
     source-map-support: 0.5.19
     tree-kill: 1.2.2
-  checksum: d1c80eb452b467191ec410743f726b54f35f20e68407152417626a2cf3169f0e09b0468384f8cd4d73c6d784ae9d7c6605540b51a4fbb1c736498812e4ca06d7
+  checksum: be61d50a86f8a34f8ce1209c666bace06f9d6b9b07eb2fb1fec91e056d0a67d3adeacd22474522d4e7313227b565e264e3f847519eb50dbee9331391aff62183
   languageName: node
   linkType: hard
 
-"@nrwl/linter@npm:14.5.4":
-  version: 14.5.4
-  resolution: "@nrwl/linter@npm:14.5.4"
+"@nrwl/linter@npm:14.5.8":
+  version: 14.5.8
+  resolution: "@nrwl/linter@npm:14.5.8"
   dependencies:
-    "@nrwl/devkit": 14.5.4
-    "@nrwl/jest": 14.5.4
+    "@nrwl/devkit": 14.5.8
+    "@nrwl/jest": 14.5.8
     "@phenomnomnominal/tsquery": 4.1.1
-    nx: 14.5.4
+    nx: 14.5.8
     tmp: ~0.2.1
     tslib: ^2.3.0
   peerDependencies:
@@ -1352,45 +1353,45 @@ __metadata:
   peerDependenciesMeta:
     eslint:
       optional: true
-  checksum: d0e21a7208904515bab87f4dbe60b53a5146507d08648da91fd3a90c0cdc066a4b5de4866d041d1ae24d769f678f9e13f8291eac42356c7acac03c8eec12d7e3
+  checksum: 37e8db8aa8bd42d94b007f66614160541b8d4c73bbc7e2aedc3a6ed5890209e5e0e6f94fbd85373a5272aefa7600d06eb75376c8d516daf3ad5e5643bd0093bc
   languageName: node
   linkType: hard
 
-"@nrwl/nx-plugin@npm:14.5.4":
-  version: 14.5.4
-  resolution: "@nrwl/nx-plugin@npm:14.5.4"
+"@nrwl/nx-plugin@npm:14.5.8":
+  version: 14.5.8
+  resolution: "@nrwl/nx-plugin@npm:14.5.8"
   dependencies:
-    "@nrwl/devkit": 14.5.4
-    "@nrwl/jest": 14.5.4
-    "@nrwl/js": 14.5.4
-    "@nrwl/linter": 14.5.4
+    "@nrwl/devkit": 14.5.8
+    "@nrwl/jest": 14.5.8
+    "@nrwl/js": 14.5.8
+    "@nrwl/linter": 14.5.8
     dotenv: ~10.0.0
     fs-extra: ^10.1.0
     rxjs: ^6.5.4
     semver: 7.3.4
     tslib: ^2.3.0
-  checksum: bb7f426b897c9415685b81237c405bacafc45f5f18f19d7f2548409cd4bfb72d1e36709adfc4f9d90eb8fcd5cd627443e315b13f325b88b2c96f911e1fecdec5
+  checksum: e9d2b759b782b3044d64ebeac99c5cbd3234ba53777f97555016e77c4559fecfdad6fcca2f37aef5d8727096470d641e79b2f4a8f0fa40c20fbe9624d5731a35
   languageName: node
   linkType: hard
 
-"@nrwl/tao@npm:14.5.4":
-  version: 14.5.4
-  resolution: "@nrwl/tao@npm:14.5.4"
+"@nrwl/tao@npm:14.5.8":
+  version: 14.5.8
+  resolution: "@nrwl/tao@npm:14.5.8"
   dependencies:
-    nx: 14.5.4
+    nx: 14.5.8
   bin:
     tao: index.js
-  checksum: 53d75b6c354fe0fafe1e766ece828af94f0fc620acca58d52624d55099e24178dae3fe661e1c55a45f2ed4e2d5a709f388db2d2cb68e9b4eee6073fa30056be1
+  checksum: 4d8c22373f1cca3a54d1e4c4c5edc4c0be8e7e57c867fcb9f63356947970d910e56c1701d7d5842e59d34871fbe51073408f9d4e39ae16adfcd732fda76cb10a
   languageName: node
   linkType: hard
 
-"@nrwl/workspace@npm:14.5.4":
-  version: 14.5.4
-  resolution: "@nrwl/workspace@npm:14.5.4"
+"@nrwl/workspace@npm:14.5.8":
+  version: 14.5.8
+  resolution: "@nrwl/workspace@npm:14.5.8"
   dependencies:
-    "@nrwl/devkit": 14.5.4
-    "@nrwl/jest": 14.5.4
-    "@nrwl/linter": 14.5.4
+    "@nrwl/devkit": 14.5.8
+    "@nrwl/jest": 14.5.8
+    "@nrwl/linter": 14.5.8
     "@parcel/watcher": 2.0.4
     chalk: 4.1.0
     chokidar: ^3.5.1
@@ -1405,7 +1406,7 @@ __metadata:
     ignore: ^5.0.4
     minimatch: 3.0.5
     npm-run-path: ^4.0.1
-    nx: 14.5.4
+    nx: 14.5.8
     open: ^8.4.0
     rxjs: ^6.5.4
     semver: 7.3.4
@@ -1418,7 +1419,7 @@ __metadata:
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: 9d1d8390ddf6929a95f603b250a1a62eac4fc7da302cbfc39de38716522bf19da66bd793fd4db7dd22b02d63f4406fea38ca4da295f6fe8285d7b068eeefe4df
+  checksum: d0beac40a15b4e6ee30499bc409a705e1f305ffcdb5f0bca3095fec2c2632d35310325f2976d76a8c9e05c58f0298d5d76152032dcb351b7a3e20c21279fe3f6
   languageName: node
   linkType: hard
 
@@ -5631,13 +5632,13 @@ __metadata:
     "@angular-devkit/schematics": 14.1.3
     "@commitlint/cli": ^17.0.0
     "@commitlint/config-angular": ^17.0.0
-    "@nrwl/cli": 14.5.4
-    "@nrwl/devkit": 14.5.4
-    "@nrwl/eslint-plugin-nx": 14.5.4
-    "@nrwl/jest": 14.5.4
-    "@nrwl/js": 14.5.4
-    "@nrwl/nx-plugin": 14.5.4
-    "@nrwl/workspace": 14.5.4
+    "@nrwl/cli": 14.5.8
+    "@nrwl/devkit": 14.5.8
+    "@nrwl/eslint-plugin-nx": 14.5.8
+    "@nrwl/jest": 14.5.8
+    "@nrwl/js": 14.5.8
+    "@nrwl/nx-plugin": 14.5.8
+    "@nrwl/workspace": 14.5.8
     "@types/jest": 28.1.7
     "@types/node": ^16.0.0
     "@typescript-eslint/eslint-plugin": 5.34.0
@@ -5650,7 +5651,7 @@ __metadata:
     jest: 28.1.3
     jest-extended: ^3.0.0
     ngx-deploy-npm: ^4.0.0
-    nx: 14.5.4
+    nx: 14.5.8
     prettier: 2.7.1
     tmp: ^0.2.1
     ts-jest: 28.0.8
@@ -6445,12 +6446,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nx@npm:14.5.4":
-  version: 14.5.4
-  resolution: "nx@npm:14.5.4"
+"nx@npm:14.5.8":
+  version: 14.5.8
+  resolution: "nx@npm:14.5.8"
   dependencies:
-    "@nrwl/cli": 14.5.4
-    "@nrwl/tao": 14.5.4
+    "@nrwl/cli": 14.5.8
+    "@nrwl/tao": 14.5.8
     "@parcel/watcher": 2.0.4
     chalk: 4.1.0
     chokidar: ^3.5.1
@@ -6489,7 +6490,7 @@ __metadata:
       optional: true
   bin:
     nx: bin/nx.js
-  checksum: 769636e609b8ed7da601c534a377cc00a5ecce96f9e0819e5c47cf0615795c0199fd85bcc00d99c39e4fa4fdc08fb683624237f6b5a5ea937614ca83286f2ebc
+  checksum: d7a6454ed0f8a326cfff9c77aacc7c2669603fe508848f07ea139c651196af8f54fa85201be29f82f5bdb001bea58a4bd917e5ae349ef07de654a6c6d480769f
   languageName: node
   linkType: hard
 
